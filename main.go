@@ -10,6 +10,6 @@ import (
 func main() {
 	fmt.Fprintf(os.Stdout, "rangure - file tagger\n")
 
-	explorer.OpenDir(".")
+	explorer.ShowFiles()
 
 }
