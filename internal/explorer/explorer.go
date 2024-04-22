@@ -79,7 +79,7 @@ func (m model) View() string {
 	return s.String()
 }
 
-func ShowFiles() {
+func ListFiles() {
 	fp := filepicker.New()
 	fp.CurrentDirectory, _ = os.UserHomeDir()
 
